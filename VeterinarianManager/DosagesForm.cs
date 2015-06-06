@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace VeterinarianManager
 {
-    public partial class StartForm : Form
+    public partial class DosagesForm : Form
     {
-        public StartForm()
+        public DosagesForm()
         {
             InitializeComponent();
-        }
-
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            DashboardForm dashForm = new DashboardForm();
-            dashForm.Show();
-            this.Hide();
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace VeterinarianManager
 {
-    public partial class Dashboard : Form
+    public partial class ClientsForm : Form
     {
-        public Dashboard()
+        public ClientsForm()
         {
             InitializeComponent();
         }

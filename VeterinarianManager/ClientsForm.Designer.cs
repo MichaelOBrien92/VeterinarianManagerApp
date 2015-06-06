@@ -1,6 +1,6 @@
 ﻿namespace VeterinarianManager
 {
-    partial class Dashboard
+    partial class ClientsForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,32 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnLogout = new System.Windows.Forms.Button();
-            this.SuspendLayout();
-            // 
-            // btnLogout
-            // 
-            this.btnLogout.Location = new System.Drawing.Point(12, 338);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(75, 23);
-            this.btnLogout.TabIndex = 0;
-            this.btnLogout.Text = "Logout";
-            this.btnLogout.UseVisualStyleBackColor = true;
-            // 
-            // Dashboard
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(493, 373);
-            this.Controls.Add(this.btnLogout);
-            this.Name = "Dashboard";
-            this.Text = "Dashboard";
-            this.ResumeLayout(false);
-
+            this.Text = "ClientsForm";
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnLogout;
     }
 }
